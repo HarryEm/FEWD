@@ -1,0 +1,43 @@
+body {
+  color: black;
+  font-family: monospace;
+  line-height: 1.5em;
+}
+
+/* Colors */
+.color-1 {
+    background-color: #023e8a;
+}
+.color-2 {
+    background-color: #48cae4;
+}
+.color-3 {
+    background-color: #caf0f8;
+}
+
+/* Buttons */
+button {
+    padding: 10px 24px;
+    font-size: 18px;
+    text-align: center;
+    margin: 5px;
+}
+.buttons {
+    display: grid;
+}
+.default-button {
+    background-color: #48cae4;
+    color:  #023e8a;
+    border-radius: 4px;
+}
+.hover-button {
+    background-color: white;
+    border-color: #48cae4;
+    color: #023e8a;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+.hover-button:hover {
+  background-color: #48cae4;
+  color: white;
+}

@@ -1,0 +1,12 @@
+body {
+    margin: 20px;
+}
+.dot {
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+}
